@@ -46,7 +46,7 @@ app.get('/recipes/:id', (req, res) => {
   });
 });
 
-const port = process.env.PORT1 || 5000;
+const port = process.env.PORT1 || '5000';
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
